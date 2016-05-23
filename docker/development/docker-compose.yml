@@ -15,8 +15,7 @@ webserver:
 
 mamute:
   # You'll find the Mamute version in ./Mamute/Dockerfile
-  # build: ./Mamute/
-  image: mamute:latest
+  build: ./Mamute/
   restart: always
   mem_limit: 1G
   links:
