@@ -29,12 +29,6 @@ RUN ln -s /usr/bin/nodejs /usr/bin/node
 RUN mvn clean package -DskipTests
 
 
-# 6. Make a copy of mamute/target/mamute-1.0.0-SNAPSHOT to yourproject/mamute
-
-# 7. Run it by executing the bash script mamute/run.sh
-
-# 8. If everything worked, you are free to customize mamute folder as you want to!
-
 #### From here we follow https://github.com/caelum/mamute/blob/master/docker/production/Mamute/Dockerfile
 
 ENV VERSION=1.4.0 USER=mamute PASSWORD=Shei6cea DB=db/mamute_development
